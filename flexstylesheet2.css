@@ -17,16 +17,16 @@
 .flex-container>div {
     background-color: darkgray;
     margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    width: 600px;
+    padding: 10px;
+    font-size: 15px;
+    width: 40px;
 }
 .inline-flex-container>div {
     background-color: lightgrey;
     margin: 20px;
     padding: 10px;
-    font-size: 25px;
-    width: 80px;
+    font-size: 15px;
+    width: 40px;
 }
 .flex-container {
     display: flex;
