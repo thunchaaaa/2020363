@@ -26,12 +26,21 @@
 }
 .flex-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 .inline-flex-container {
     display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.d1 {
+    order: 1;
+}
+.d2 {
+    order: 3;
+}
+.d3 {
+    order: 2;
 }
 
