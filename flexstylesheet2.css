@@ -1,0 +1,49 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    border: 1px solid;
+}
+.inline-flex-container {
+    display: inline-flex;
+    direction: row;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-blue {
+    background-color: skyblue;
+}
+.flex-container>div {
+    background-color: darkgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 600px;
+}
+.inline-flex-container>div {
+    background-color: lightgrey;
+    margin: 20px;
+    padding: 10px;
+    font-size: 25px;
+    width: 80px;
+}
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.inline-flex-container {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.d1 {
+   border: 1px solid;
+}
+.d2 {
+  border: 1px solid;
+}
+.d3 {
+ border: 1px solid;
+}
